@@ -71,7 +71,7 @@ foreach ($arrayDeClientes as $cliente) {
 // Exercício 1-
 INSERT INTO Parentesco (IdResponsavel, IdAluno, Parentesco) VALUES (1, 1, 'Pai');
 INSERT INTO Parentesco (IdResponsavel, IdAluno, Parentesco) VALUES (2, 1, 'Mãe');
-
+//OBS: Existe um erro de digitação na tabela parentesco, onde idResponsavel esta escrita de forma incorreta. Para a realização do teste optei por corrigir.
 //Exercício 2-
 SELECT 
     a.Nome AS 'Aluno',
